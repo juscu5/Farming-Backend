@@ -1,0 +1,60 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local development settings
+.env
+
+# Database
+*.sqlite3
+db.sqlite3
+
+# Static files
+/staticfiles/
+
+# Media files
+/media/
+
+# Virtual environment
+# venv/
+# venv3/
+# *.venv/
+# *.env/
+
+# IDE files
+*.idea/
+.vscode/
+
+# Temporary files
+*.swp
+*~
+*.log
+
+# Ignore Django migrations
+**/migrations/
+
+# Ignore secrets and sensitive information
+*.secret
+*.key
+*.pem
+
+# Ignore local settings
+local_settings.py
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore pytest cache directory
+__pycache__/
+.cache/
+
+# Ignore coverage report directory
+htmlcov/
+
+# Ignore pipenv virtual environment
+Pipfile.lock
+
+# Ignore Docker files
+Dockerfile
+docker-compose.yml
